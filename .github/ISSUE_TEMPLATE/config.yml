@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://javadoc.io/doc/io.b58uuid/b58uuid
+    about: View the API documentation on javadoc.io
+  - name: Discussions
+    url: https://github.com/b58uuid/b58uuid-java/discussions
+    about: Ask questions and discuss ideas with the community
