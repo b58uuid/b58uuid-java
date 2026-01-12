@@ -7,15 +7,19 @@
 
 Base58-encoded UUID library for Java.
 
+🌐 **[Try the online converter at b58uuid.io](https://b58uuid.io)**
+
 ## Why This Library?
 
-- **Compact**: 22 characters instead of 36
-- **URL-safe**: No special characters that need escaping
-- **Unambiguous**: Uses Bitcoin's Base58 alphabet (excludes 0, O, I, l)
-- **Fast**: Optimized encoding/decoding algorithms
-- **Safe**: Thread-safe operations with comprehensive error handling
-- **Zero dependencies**: Uses only Java standard library
-- **Java 8+**: Compatible with Java 8 and higher
+Convert standard 36-character UUIDs to compact 22-character Base58 format:
+
+- **Significantly shorter** - From 36 to 22 characters: `550e8400-e29b-41d4-a716-446655440000` → `BWBeN28Vb7cMEx7Ym8AUzs`
+- **URL-safe** - No special characters that need escaping
+- **Unambiguous** - Uses Bitcoin's Base58 alphabet (excludes 0, O, I, l)
+- **Fast** - Optimized encoding/decoding algorithms
+- **Thread-safe** - Safe for concurrent use
+- **Zero dependencies** - Uses only Java standard library
+- **Java 8+** - Compatible with Java 8 and higher
 
 ## Installation
 
@@ -107,6 +111,21 @@ mvn package
 ```
 
 For detailed contribution guidelines, see [CONTRIBUTING.md](.github/CONTRIBUTING.md).
+
+## Other Language Implementations
+
+B58UUID is available in multiple languages:
+
+- **Go**: [b58uuid-go](https://github.com/b58uuid/b58uuid-go) - Available on [pkg.go.dev](https://pkg.go.dev/github.com/b58uuid/b58uuid-go)
+- **Rust**: [b58uuid-rs](https://github.com/b58uuid/b58uuid-rs) - Available on [crates.io](https://crates.io/crates/b58uuid)
+- **JavaScript/TypeScript**: [b58uuid-js](https://github.com/b58uuid/b58uuid-js) - Available on [npm](https://www.npmjs.com/package/b58uuid)
+- **Python**: [b58uuid-py](https://github.com/b58uuid/b58uuid-py) - Available on [PyPI](https://pypi.org/project/b58uuid/)
+
+## Resources
+
+- 🌐 [Online Converter](https://b58uuid.io) - Try B58UUID in your browser
+- 📚 [Documentation](https://javadoc.io/doc/io.b58uuid/b58uuid)
+- 🐛 [Report Issues](https://github.com/b58uuid/b58uuid-java/issues)
 
 ## License
 
